@@ -1,0 +1,1040 @@
+body {
+    font-family: lato;
+    background-color: #f1f1f1;
+}
+
+nav {
+    background-color: #222222;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: -7px;
+    margin-right: -20px;
+    padding: 20px 30px;
+}
+
+select {
+    font-size: 16px;
+    background-color: gray;
+    color: white;
+    padding-left: 5px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+option {
+    background-color: #cccccc;
+    color: black;
+}
+
+
+.left-nav img {
+    width: 50px;
+}
+
+
+nav .middle-nav {
+    vertical-align: middle;
+    justify-content: center;
+    display: flex;
+    flex: 1;
+    position: relative;
+    height: 35px;
+}
+
+.middle-nav form {
+    display: flex;
+    flex: 1;
+}
+
+.middle-nav form input {
+    border: none;
+    outline: none;
+    flex: 1;
+    max-width: 700px;
+    font-size: 16px;
+    flex-shrink: 0px;
+    padding: 0px 10px;
+    width: 50px;
+}
+
+
+nav .middle-nav button {
+    border: none;
+    outline: none;
+    margin: 0;
+    display: inline-block;
+    text-align: right;
+    color: white;
+    align-self: center;
+    background-color: #62516D;
+    padding: 10px 15px;
+    transition: background-color 0.15s;
+} 
+
+.middle-nav button:hover {
+    cursor: pointer;
+    background-color: #7e7088;
+}
+
+.middle-nav .middle-options {
+    position: fixed;
+    width: 35%;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px 20px;
+    display: flex;
+    display: none;
+    flex-direction: column;
+    row-gap: 30px;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease-in-out;
+}
+
+.middle-nav .middle-options div {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 8px 5px;
+}
+
+.middle-nav .middle-options img {
+    width: 30px;
+    margin-right: 15px;
+}
+
+.middle-nav .middle-options div #home-btn {
+    filter: invert(100%);
+    width: 40px;
+    vertical-align: middle;
+}
+
+.middle-nav .middle-options div #accessories-btn {
+    width: 60px;
+    margin: 0;
+    vertical-align: middle;
+}
+
+.middle-nav .middle-options div #contact-btn {
+    width: 45px;
+    vertical-align: middle;
+}
+
+.middle-nav .middle-options div a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+
+.middle-nav .middle-options div:hover {
+    background-color: #62516D;
+}
+
+nav .right-nav{
+    padding: 0px 15px;
+}
+
+nav .right-nav img {
+    width: 40px;
+}
+
+
+.first-section {
+    background-image: linear-gradient(20deg, #e5b69d, #f79661);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    justify-content: space-between;
+    padding: 30px 30px;
+    margin-left: -8px;
+    margin-right: -20px;
+}
+
+.first-section .top-section {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.first-section .right-section .image-container {
+    position: relative;
+    width: 170px;
+    height: 200px;
+    border-radius: 20px 0 20px 0px;
+}
+
+.first-section .left-section {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    position: relative;
+}
+
+#niche,
+#niche-contd {
+    font-weight: bolder;
+    margin: 0;
+}
+
+#niche-contd {
+    font-size: 25px;
+    font-family: roboto;
+    font-weight: 1000;
+}
+
+#niche span {
+    font-family: tahoma;
+    font-size: 35px;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2)
+}
+
+.first-section .right-section .image-container img {
+    width: 300px;
+    position: absolute;
+    left: -100px;
+    z-index: 1;
+}
+
+.first-section .right-section .image-container div {
+    position: relative;
+    width: 170px;
+    height: 200px;
+    left: 5px;
+    top: 5px;
+    border-radius: 20px 0 20px 0px;
+}
+
+.shop-btn {
+    background-color: #222222;
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    width: 100px;
+    height: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.first-section .left-section #nike-logo {
+    width: 200px;
+    position: absolute;
+    opacity: 0.2;
+    right: 20px;
+    bottom: -20px;
+}
+
+
+.top-shoes {
+    margin-top: 30px;
+    display: flex;
+    column-gap: 15px;
+}
+
+.top-shoes div {
+    background-color: rgba(96, 96, 96, 0.2);
+    padding: 5px 10px;
+    border-radius: 5px;;
+    box-shadow: 5px 5px 5px rgba(96, 96, 96, 0.2);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.top-shoes div p {
+    margin: 0;
+    text-align: center;
+    padding: 0;
+}
+
+.top-shoes div img {
+    width: 80px;
+    position: absolute;
+    top: -35px;
+    left: 40px;
+    transform: rotate(-30deg);
+}
+
+.top-shoes div #shoe-name {
+    font-weight: 1000;
+    font-family: lato;
+    margin-top: 10px;
+    white-space: nowrap;
+}
+
+.top-shoes div #import span {
+    color: white;
+}
+
+.top-shoes div #price {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px;
+    color: white;
+    background-color: #62516D;
+}
+
+.top-shoes #first img{
+    transform: rotate(-20deg);
+    top: -32px;
+    left: 30px;
+    width: 80px;
+}
+
+
+.third-section {
+    margin: -15px -20px;
+    background-color: #efefef;
+    padding: 30px;
+}
+
+.third-section .top-section .left-section #title {
+    font-weight: 1000;
+    font-size: 25px;
+}
+
+.features-container {
+    display: flex;
+    column-gap: 30px;
+}
+
+.features-img-container {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.features-img-container #icon-flexibility {
+    border-radius: 50px;
+}
+
+.features-img-container img {
+    width: 80px;
+}
+
+.features-text-container span {
+    font-weight: 1000;
+    margin: 0;
+}
+
+.features-text-container p {
+    font-size: 14px;
+    margin: 0;
+    text-align: justify;
+    line-height: 25px;
+    margin-top: 10px;
+}
+
+.bottom-section {
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.third-section .top-section .right-section {
+    display: none;
+}
+
+.third-section .bottom-section .collection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 55px;
+}
+
+.third-section .bottom-section p {
+    font-size: 18px;
+    font-weight: 1000;
+    margin: 0;
+}
+
+
+hr {
+    width: 80%;
+    border: solid 2px;
+    color: rgb(188, 186, 186);
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+.third-section .bottom-section .collection div {
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    border: solid #cccccc 1px;
+    position: relative;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+    padding-top: 40px;
+}
+
+.collection div img {
+    width: 150px;
+    position: absolute;
+    top: -50px;
+    left: 16px;
+}
+
+.third-section .bottom-section .collection div #shoe-name {
+    font-family: lato, tahoma;
+    font-size: 18px;
+    font-weight: 1000;
+}
+
+.third-section .bottom-section .collection div #shoe-rating {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.third-section .bottom-section .collection div #price {
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.third-section .bottom-section .collection div #product-id {
+    margin-top: 8px;
+    font-size: 12px;
+    white-space: nowrap;
+    background-color: #62516D;
+    color: white;
+    padding: 5px 15px;
+    font-weight: 500;
+}
+
+.third-section .bottom-section .collection div #product-id span{
+    color: yellow;
+}
+
+.fourth-section {
+    background-color: #f79661;
+    padding: 10px 25px;
+    display: flex;
+    column-gap: 20px;
+    padding-bottom: 30px;
+    margin: 0px -20px;
+}
+
+.fourth-section .left-section {
+    position: relative;
+}
+
+.fourth-section .left-section div {
+    background-color: rgba(232, 232, 222, 0.2);
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    border-radius: 75px;
+    z-index: 0;
+}
+
+.fourth-section .left-section img {
+    width: 200px;
+    z-index: 2;
+}
+
+.fourth-section .right-section #title {
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 1000;
+    color: #ffff;
+    margin: 10px 0px;
+}
+
+.fourth-section .right-section p {
+    color: #ffff;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.fourth-section .right-section a {
+    text-decoration: none;
+    color: white;
+    background-color: #222222;
+    padding: 5px 8px;
+    transition: background-color 0.15s, padding 0.15s;
+}
+
+.fourth-section .right-section a:hover {
+    background-color: #383838;
+    padding: 6px 10px;
+}
+
+.fifth-section {
+    background-color: #ffff;
+    margin: 0px -15px;
+    padding: 20px 50px;
+    text-align: center;
+}
+
+.fifth-section #title {
+    font-family: lato, tahoma;
+    font-size: 25px;
+    font-weight: 1000;
+}
+
+.fifth-section .gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 50px;
+}
+
+.fifth-section .gallery div {
+    position: relative;
+}
+
+.fifth-section .gallery img {
+    width: 120px;
+}
+
+.fifth-section .gallery #one {
+    background-image: radial-gradient(#ffff, #cccc)
+}
+
+.fifth-section .gallery #two {
+    background-image: radial-gradient(rgb(123, 69, 11), rgba(80, 61, 8, 0.8))
+}
+
+.fifth-section .gallery #two img {
+    width: 135px;
+    transform: rotate(-30deg);
+    position: absolute;
+    right: 2px;
+    top: 25px;
+}
+
+.fifth-section .gallery #three {
+    background-image: radial-gradient(rgb(197, 200, 24), rgba(124, 105, 7, 0.8))
+}
+
+.fifth-section .gallery #three img {
+    width: 135px;
+    transform: rotate(-30deg);
+    position: absolute;
+    right: 2px;
+    top: 25px;
+}
+
+.fifth-section .gallery #four {
+    background-image: radial-gradient(rgb(255, 238, 0), rgba(212, 198, 10, 0.8))
+}
+
+.fifth-section .gallery #four img {
+    width: 155px;
+}
+
+.fifth-section .gallery #five {
+    background-image: radial-gradient(rgb(240, 194, 194), rgba(238, 184, 184, 0.8))
+}
+
+.fifth-section .gallery #five img {
+    width: 120px;
+    transform: rotate(10deg);
+    position: absolute;
+    right: 0px;
+    top: 25px;
+}
+
+.fifth-section .gallery #six {
+    background-image: radial-gradient(rgb(134, 55, 21), rgba(77, 0, 0, 0.8))
+}
+
+.fifth-section .gallery #six img {
+    width: 130px;
+    position: absolute;
+    right: 0px;
+    top: 25px;
+    transform: rotate(-25deg)
+}
+
+.fifth-section #title-subscribe {
+    margin: 0;
+    font-size: 23px;
+    font-weight: 1000;
+}
+
+.fifth-section p {
+    margin-top: 10px;
+}
+
+.fifth-section input {
+    color: white;
+    background-color: rgb(255, 95, 141);
+    font-size: 16px;
+    border: none;
+    padding: 5px 10px;
+    outline: none;
+}
+
+.fifth-section ::placeholder {
+    color: rgb(253, 221, 236);
+}
+
+.fifth-section button {
+    background-color: #222222;
+    color: white;
+    font-size: 16px;
+    border: none;
+    padding: 5px 10px;
+    margin-left: -5px;
+    transition: background-color 0.15s;
+}
+
+.fifth-section button:hover {
+    background-color: #383838;
+    cursor: pointer;
+}
+
+.six-section {
+    background-color: #383838;
+}
+
+.six-section .top-section {
+    display: grid;
+    grid-template-rows: 120px 1fr 1fr 1fr;
+    padding: 20px 50px;
+    gap: 30px;
+    margin: 0px -8px;
+}
+
+.six-section .section-1 {
+    color: rgb(167, 167, 167);
+}
+
+.six-section .section-1 #title{
+    color: #ffff;
+    font-weight: 1000;
+    font-size: 20px;
+    margin: 0;
+}
+
+.six-section .section-1 #content {
+    margin: 0;
+}
+
+
+.six-section .section-2 #title{
+    color: #ffff;
+    font-weight: 1000;
+    font-size: 20px;
+    margin: 0;
+}
+
+.six-section .section-3 #title{
+    color: #ffff;
+    font-weight: 1000;
+    font-size: 20px;
+    margin: 0;
+}
+
+
+.six-section .section-4 #title{
+    color: #ffff;
+    font-weight: 1000;
+    font-size: 20px;
+    margin: 0;
+}
+
+
+.six-section .section-1 a,.section-2 a,.section-3 a,.section-4 a {
+    transition: color 0.15s;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    max-width: 20px;
+    white-space: nowrap;
+    text-decoration: none;
+    margin: 8px 0px;
+    display: block;
+    color: #ffff;
+} 
+
+.six-section .section-1 a:hover,.section-2 a:hover,.section-3 a:hover,.section-4 a:hover {
+    color: gray;
+} 
+
+.six-section .section-5 {
+    text-align: center;
+    color: #cccccc;
+}
+
+.six-section {
+    margin-bottom: -20px;
+    margin-right: -20px;
+    padding: 20px 30px;
+}
+
+.six-section hr {
+    width: 100%;
+    height: 1px;
+    background: none;
+    border: solid 1px gray; 
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin: 15px 0px;
+}
+
+.six-section img {
+    width: 30px;
+    margin: 0px 5px;
+    transition: opacity 0.15s;
+}
+
+.six-section img:hover {
+    opacity: 0.8;
+}
+
+.ads-section {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.ads-section img {
+    width: 250px;
+}
+
+.ads-section .close-container {
+    background-color: #222222;
+    position: absolute;
+    border-radius: 30px;
+    padding: 7px;
+    top: -10px;
+    left: -15px;
+}
+
+
+.ads-section .close-container img {
+    width: 25px;
+    display: inline-block;
+    margin: 0;
+    padding: 5px 5px;
+}
+
+.ads-section .close-container img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+} 
+
+@media (min-width: 400px) {
+    .top-shoes {
+        column-gap: 5px;
+    }
+
+    .top-shoes div p {
+        font-size: 14px;
+    }
+
+    .middle-nav .middle-options div a {
+        font-size: 15px;
+    }
+
+    .third-section .bottom-section .collection {
+        gap: 55px;
+        column-gap: 20px;
+    } 
+}
+
+@media (min-width: 678px) and (max-width: 1023px){
+
+    #niche span {
+        font-size: 65px;
+    }
+
+    #niche-contd {
+        font-size: 35px;
+    }
+
+    .shop-btn {
+        font-size: 22px;
+        width: 150px;
+    }
+
+    .first-section .right-section .image-container img {
+        width: 340px;
+        position: absolute;
+        left: -140px;
+        top: -20px;
+    }
+
+    .top-shoes {
+        margin-top: 50px;
+        column-gap: 25px;
+    }
+
+    .top-shoes div img {
+        width: 100px;
+        position: absolute;
+        top: -45px;
+        left: 60px;
+        transform: rotate(-25deg);
+    }
+
+    .top-shoes #first img{
+        transform: rotate(-20deg);
+        top: -40px;
+        left: 50px;
+        width: 100px;
+    }
+
+    .third-section .top-section .right-section {
+        display: none;
+    }
+
+    .third-section .bottom-section .collection {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 45px;
+        row-gap: 70px;
+    }
+
+    .fourth-section {
+        padding: 15px 60px;
+    }
+
+    .fifth-section .gallery #two img {
+        width: 145px;
+        right: 25px;
+        top: 25px;
+    }
+
+    .fifth-section .gallery #three img {
+        width: 155px;
+        right: 20px;
+        top: 25px;
+    }
+
+    .fifth-section .gallery #five img {
+        width: 155px;
+        right: 20px;
+        top: 15px;
+    }
+
+    .fifth-section .gallery #six img {
+        width: 155px;
+        right: 20px;
+        top: 15px;
+    }
+
+
+}
+
+@media (min-width: 790px) {
+    .top-shoes div img {
+        width: 120px;
+        top: -55px;
+        left: 80px;
+    }
+
+    .top-shoes #first img {
+        width: 120px; 
+        top: -55px;
+        left: 80px;
+    }
+}
+
+@media (min-width: 1024px) {
+    nav .middle-nav .middle-options img {
+        display: none;
+    }
+
+
+    nav .middle-nav .middle-options {
+        position: static;
+        height: 0px;
+        width: 0px;
+        flex: 1;
+        background: none;
+        display: flex;
+        flex-direction: row;
+        column-gap: 0px;
+        padding: 20px 15px;
+        justify-content: center;
+        align-items: center;
+        box-shadow: none;
+    }
+
+    nav .right-nav {
+        display: none;
+    }
+
+    .middle-nav .middle-options div a {
+        color: white;
+        text-decoration: none;
+        font-size: 22px;
+        transition: color 0.15s;
+    }
+
+    .middle-nav .middle-options div a:hover {
+        color: #cccccc;
+    }
+
+    .first-section .left-section {
+        padding: 50px;
+    }
+
+    #niche span {
+        font-size: 80px;
+    }
+
+    #niche-contd {
+        font-size: 45px;
+    }
+
+    .shop-btn {
+        margin-top: 10px;
+    }
+
+    .first-section .left-section #nike-logo {
+        width: 300px;
+        position: absolute;
+        opacity: 0.2;
+        right: 280px;
+        bottom: -50px;
+    }
+
+    .first-section .right-section .image-container img {
+        width: 450px;
+        left: -300px;
+        top: -20px;
+
+    }
+
+    .top-shoes div p {
+        font-size: 22px;
+        margin: 0;
+        text-align: center;
+        padding: 0;
+    }
+
+    .top-shoes div img {
+        width: 130px;
+        position: absolute;
+        top: -65px;
+        left: 110px;
+        transform: rotate(-30deg);
+    }
+
+    .third-section .top-section {
+        display: flex;
+    }
+
+    .third-section .top-section .left-section {
+        padding: 40px;
+        flex: 1;
+    }
+
+    .third-section .top-section .right-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 200px;
+        padding: 20px;
+        border-radius: 130px;
+        margin-top: 200px;
+        background-image: radial-gradient(lightgreen,rgb(107, 179, 14));
+    }
+
+    .third-section .top-section .right-section .image-container img {
+        width: 200px;
+        transform: rotate(-25deg);
+    }
+
+    .third-section .bottom-section hr {
+        margin-bottom: 70px;
+    }
+
+    .third-section .bottom-section p {
+        font-size: 30px;
+    }
+
+    .third-section .bottom-section .collection {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .fourth-section {
+        padding: 15px 50px;
+    }
+
+    .fourth-section .right-section #title {
+        font-size: 35px;
+    }
+
+    .fourth-section .right-section p {
+        font-size: 18px;
+    }
+
+    .fourth-section .right-section a {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .fifth-section .gallery #two img {
+        right: 75px;
+    }
+
+    .fifth-section .gallery #three img {
+        right: 75px;
+    }
+
+    .fifth-section .gallery #five img {
+        right: 75px;
+        width: 180px;
+        top: 10px;
+    }
+
+    .fifth-section .gallery #six img {
+        width: 155px;
+        right: 75px;
+        top: 20px;
+    }
+
+
+    .six-section .top-section {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 1250px) {
+    .middle-nav .middle-options div {
+        padding: 5px 20px;
+    }
+
+    .middle-nav .middle-options div a {
+        font-size: 25px;
+        margin: 0;
+    }
+
+    .first-section .right-section .image-container img {
+        left: -400px;
+        top: -30px;
+    }
+
+    .top-shoes #first img {
+        width: 130px;
+        top: -60px;
+        left: 130px;
+    }
+
+    .third-section .bottom-section .collection {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+
+
+}
+
+
+
+
